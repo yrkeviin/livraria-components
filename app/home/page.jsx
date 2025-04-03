@@ -3,6 +3,7 @@ import Banner from "../../components/Banner";
 import Title from "../../components/Title";
 import Card from "../../components/Card";
 import CardCategoria from "../../components/CardCategoria";
+import Footer from "../../components/Footer";
 
 import "./home.css"
 
@@ -95,6 +96,13 @@ export default function Page() {
                     categoria="Autoajuda"
                 />
             </section>
+
+            <Title 
+                text="Lançamentos"
+                all="Ver todos"
+            />   
+
+            <Footer />
         </>
     );
 }
