@@ -7,8 +7,8 @@ export default function Footer() {
             <p>Assine nossa newsletter e receba atualizações sobre novos lançamentos,promoções exclusivas e dicas de leitura.</p>
 
             <div className={styles.button}>
-                <input type="text" placeholder="Seu melhor e-maiL!" />
-                <button></button>
+                <input type="text" placeholder="Seu melhor e-mail!" />
+                <button>Assinar</button>
             </div>
         </div>
     );
