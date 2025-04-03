@@ -1,15 +1,16 @@
-import Header from "../components/Header";
-import Banner from "../components/Banner";
+"use client";
 
-export default function Page() {
-    return (
-        <>
-            <Header />
-            <Banner />
-            <div className="container-title">
-                <h1>Destaques da semana</h1>
-                <p>Ver todos</p>
-            </div>
-        </>
-    );
+import { useEffect } from "react";
+import { useRouter } from "next/navigation";
+
+export default function Home() {
+    const router = useRouter();
+
+    useEffect(() => {
+        router.push("/home");
+    }, [router]);
+	
+return (
+	<p>Redirecting …</p>
+);
 }
