@@ -1,5 +1,7 @@
 import Header from "../../components/Header";
 import Banner from "../../components/Banner";
+import Title from "../../components/Title";
+
 import "./home.css"
 
 export default function Page() {
@@ -7,10 +9,7 @@ export default function Page() {
         <>
             <Header />
             <Banner />
-            <div className="container-title">
-                <h1>Destaques da semana</h1>
-                <p>Ver todos</p>
-            </div>
+            <Title />
         </>
     );
 }
