@@ -16,9 +16,9 @@ export default function Page() {
                 text="Destaques da semana"
                 all="Ver todos"
             />
-
+            <div className="cards">
             <Card 
-                        imgSrc="/livro01.png"
+                        bookImage="/livro01.png"
                         title="Eu e Esse Meu Coração" 
                         bookAuthor="por C. C. Hunter" 
                         bookAvaliacao="⭐⭐⭐⭐  (4)" 
@@ -27,7 +27,7 @@ export default function Page() {
                         fav=" 💖  🛒"
                     />
             <Card 
-                        imgSrc="/livro02.png"
+                        bookImage="/livro02.png"
                         title="A Culpa é das Estrelas" 
                         bookAuthor="por John Green" 
                         bookAvaliacao="⭐⭐⭐⭐⭐  (4.8)" 
@@ -36,7 +36,7 @@ export default function Page() {
                         fav=" 💖  🛒" 
                     />
             <Card 
-                        imgSrc="/livro03.png"
+                        bookImage="/livro03.png"
                         title="O lado feio do amor " 
                         bookAuthor="por Colleen Hoover" 
                         bookAvaliacao="⭐⭐⭐⭐  (4.7)"
@@ -45,13 +45,14 @@ export default function Page() {
                         fav=" 💖  🛒"
                     />
             <Card 
-                        imgSrc="/livro04.png"
+                        bookImage="/livro04.png"
                         title="O Pequeno Príncipe" 
                         bookAuthor="por Antoine de Saint-Exupéry" 
                         bookAvaliacao="⭐⭐⭐⭐⭐  (4.9)" 
                         bookGenero="Infantil" 
                         bookPrice="R$ 19,90"
                     />
+                    </div>
 
             <Title
                 text="Categorias"
