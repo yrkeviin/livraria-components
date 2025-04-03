@@ -31,4 +31,13 @@
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
     margin-top: 20px;
+    transition: .3s ease-in-out;
+}
+
+.botao:hover {
+    background-color: #a7a3ff;
+    color: white;
+    cursor: pointer;
+    scale: 1.05;
+    transition: 0.3s ease-in-out;
 }
