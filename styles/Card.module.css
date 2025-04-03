@@ -1,0 +1,41 @@
+.bookTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: black;
+}
+
+
+.bookAuthor {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: gray;
+}
+
+
+.bookAvaliacao {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: gray;
+}
+
+
+.bookGenero {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: black;
+    background-color: gray;
+}
+
+
+.bookPrice {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #2f2c79;
+}
+
+
