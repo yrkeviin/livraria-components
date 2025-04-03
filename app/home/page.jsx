@@ -3,6 +3,7 @@ import Banner from "../../components/Banner";
 import Title from "../../components/Title";
 import Card from "../../components/Card";
 import CardCategoria from "../../components/CardCategoria";
+import Lancamento from "../../components/Lancamento";
 import Footer from "../../components/Footer";
 
 import "./home.css"
@@ -102,6 +103,8 @@ export default function Page() {
                 text="Lançamentos"
                 all="Ver todos"
             />   
+
+            <Lancamento />
 
             <Footer />
         </>
