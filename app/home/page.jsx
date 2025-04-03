@@ -2,8 +2,8 @@ import Header from "../../components/Header";
 import Banner from "../../components/Banner";
 import Title from "../../components/Title";
 import Card from "../../components/Card";
+import CardLancamento from "../../components/CardLancamento";
 import CardCategoria from "../../components/CardCategoria";
-
 import "./home.css"
 
 export default function Page() {
@@ -23,7 +23,7 @@ export default function Page() {
                         bookAvaliacao="⭐⭐⭐⭐  (4)" 
                         bookGenero="Romance" 
                         bookPrice="R$ 29,90" 
-                        fav=" 💖  🛒"
+                        bookFav=" 💖  🛒"
                     />
             <Card 
                         bookImage="/livro02.png"
@@ -32,7 +32,7 @@ export default function Page() {
                         bookAvaliacao="⭐⭐⭐⭐⭐  (4.8)" 
                         bookGenero="Romance" 
                         bookPrice="R$ 34,90"
-                        fav=" 💖  🛒" 
+                        bookFav=" 💖  🛒" 
                     />
             <Card 
                         bookImage="/livro03.png"
@@ -41,7 +41,7 @@ export default function Page() {
                         bookAvaliacao="⭐⭐⭐⭐  (4.7)"
                         bookGenero="Romance"  
                         bookPrice="R$ 39,90" 
-                        fav=" 💖  🛒"
+                        bookFav=" 💖  🛒"
                     />
             <Card 
                         bookImage="/livro04.png"
@@ -50,6 +50,7 @@ export default function Page() {
                         bookAvaliacao="⭐⭐⭐⭐⭐  (4.9)" 
                         bookGenero="Infantil" 
                         bookPrice="R$ 19,90"
+                        bookFav=" 💖  🛒"
                     />
                     </div>
 
@@ -57,8 +58,6 @@ export default function Page() {
                 text="Categorias"
                 all="Ver todas"
             />
-
-
 
             <section className="categorias">
                 <CardCategoria 
@@ -96,6 +95,44 @@ export default function Page() {
                     categoria="Autoajuda"
                 />
             </section>
-        </>
+
+            <Title 
+                text="Lançamentos"
+                all="Ver todos"
+            />
+            <div className="cards">
+            <CardLancamento
+                        bookImage="/livro05.png"
+                        bookNovo="Novo"
+                        title="Todas as suas (im)perfeições" 
+                        bookAuthor="por Colleen Hoover" 
+                        bookAvaliacao="⭐⭐⭐⭐⭐  (5)" 
+                        bookGenero="Romance" 
+                        bookPrice="R$ 49,90" 
+                        bookFav=" 💖  🛒"
+                    />
+            <CardLancamento
+                        bookImage="/livro06.png"
+                        bookNovo="Novo"
+                        title="A bailarina de Auschwitz" 
+                        bookAuthor="por  Edith Eva Eger" 
+                        bookAvaliacao="⭐⭐⭐⭐⭐  (4.8)" 
+                        bookGenero="Romance" 
+                        bookPrice="R$ 38,90"
+                        bookFav=" 💖  🛒" 
+                    />
+            <CardLancamento 
+                        bookImage="/livro07.png"
+                        bookNovo="Novo"
+                        title="As mil partes do meu coração" 
+                        bookAuthor="por Colleen Hoover" 
+                        bookAvaliacao="⭐⭐⭐⭐  (4.7)"
+                        bookGenero="Romance"  
+                        bookPrice="R$ 44,90" 
+                        bookFav=" 💖  🛒"
+                    />
+
+                </div>
+            </>
     );
 }
