@@ -5,13 +5,33 @@
     color: black;
 }
 
+.bookList {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bookCard {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
 .bookCover img {
-    width: 10%;
-    height: auto;
+    width: 140px; 
+    height: 190px; 
+    object-fit: cover; 
     border-radius: 10px;
     margin-bottom: 1rem;
 }
-
 
 .bookAuthorr p {
     font-size: 1rem;
@@ -20,7 +40,6 @@
     color: rgb(0, 0, 0);
 }
 
-
 .bookAvaliacaoo {
     font-size: 1rem;
     font-weight: bold;
@@ -28,15 +47,13 @@
     color: gray;
 }
 
-
 .bookGeneroo {
     font-size: 1rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
     color: black;
-    background-color: gray;
+    background-color: rgb(200, 201, 255);
+    border-radius: 5px;
 }
-
 
 .bookPricee {
     font-size: 1rem;
@@ -44,5 +61,3 @@
     margin-bottom: 0.5rem;
     color: #2f2c79;
 }
-
-

@@ -3,3 +3,8 @@
     margin: 0 16%;
     gap: 1rem;
 }
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
