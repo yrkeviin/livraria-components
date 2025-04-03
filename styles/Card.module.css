@@ -1,12 +1,27 @@
-.bookTitle {
+.bookTitlee {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
     color: black;
 }
 
+.bookCover img {
+    width: 10%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
 
-.bookAuthor {
+
+.bookAuthorr p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: rgb(0, 0, 0);
+}
+
+
+.bookAvaliacaoo {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
@@ -14,15 +29,7 @@
 }
 
 
-.bookAvaliacao {
-    font-size: 1rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-    color: gray;
-}
-
-
-.bookGenero {
+.bookGeneroo {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
@@ -31,7 +38,7 @@
 }
 
 
-.bookPrice {
+.bookPricee {
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 0.5rem;

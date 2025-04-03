@@ -1,6 +1,7 @@
 import Header from "../../components/Header";
 import Banner from "../../components/Banner";
 import Title from "../../components/Title";
+import Card from "../../components/Card";
 import CardCategoria from "../../components/CardCategoria";
 
 import "./home.css"
@@ -18,38 +19,37 @@ export default function Page() {
             <Card 
                         imgSrc="/livro01.png"
                         title="Eu e Esse Meu Coração" 
-                        author="por C. C. Hunter" 
-                        avaliacao="⭐⭐⭐⭐  (4)" 
-                        genre="Romance" 
-                        price="R$ 29,90" 
+                        bookAuthor="por C. C. Hunter" 
+                        bookAvaliacao="⭐⭐⭐⭐  (4)" 
+                        bookGenero="Romance" 
+                        bookPrice="R$ 29,90" 
                         fav=" 💖  🛒"
                     />
             <Card 
                         imgSrc="/livro02.png"
                         title="A Culpa é das Estrelas" 
-                        author="por John Green" 
-                        avaliacao="⭐⭐⭐⭐⭐  (4.8)" 
-                        genre="Romance" 
-                        price="R$ 34,90"
+                        bookAuthor="por John Green" 
+                        bookAvaliacao="⭐⭐⭐⭐⭐  (4.8)" 
+                        bookGenero="Romance" 
+                        bookPrice="R$ 34,90"
                         fav=" 💖  🛒" 
                     />
             <Card 
                         imgSrc="/livro03.png"
                         title="O lado feio do amor " 
-                        author="por Colleen Hoover" 
-                        avaliacao="⭐⭐⭐⭐  (4.7)"
-                        genre="Romance"  
-                        price="R$ 39,90" 
-                         fav=" 💖  🛒"
+                        bookAuthor="por Colleen Hoover" 
+                        bookAvaliacao="⭐⭐⭐⭐  (4.7)"
+                        bookGenero="Romance"  
+                        bookPrice="R$ 39,90" 
+                        fav=" 💖  🛒"
                     />
             <Card 
                         imgSrc="/livro04.png"
                         title="O Pequeno Príncipe" 
-                        author="por Antoine de Saint-Exupéry" 
-                        avaliacao="⭐⭐⭐⭐⭐  (4.9)" 
-                        genre="Infantil" 
-                        price="R$ 19,90"
-                        fav=" 💖  🛒" 
+                        bookAuthor="por Antoine de Saint-Exupéry" 
+                        bookAvaliacao="⭐⭐⭐⭐⭐  (4.9)" 
+                        bookGenero="Infantil" 
+                        bookPrice="R$ 19,90"
                     />
 
             <Title
