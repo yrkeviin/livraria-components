@@ -1,0 +1,55 @@
+.footer {
+    background-color: rgb(148, 196, 255);
+    font-family: 'Poppins', sans-serif;
+    padding: 3% 7%;
+    width: 58%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+.footer p {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 6%;
+}
+
+.footer input {
+    height: 84.4%;
+    border-radius: 7px 0 0 7px;
+    outline: none;
+    border: none;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 5vh;
+}
+
+.button button {
+    border: none;
+    background-color: rgb(0, 171, 77);
+    font-size: 1rem;
+    width: 4rem;
+    font-size: .8rem;
+    color: white;
+    border-radius: 0 7px 7px 0;
+    height: 90%;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+

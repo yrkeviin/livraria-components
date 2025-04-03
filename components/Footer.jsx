@@ -1,15 +1,40 @@
 import styles from "../styles/Footer.module.css";
+import List from "./List";
 
 export default function Footer() {
     return (
-        <div className={styles.footer}>
-            <h1>Fique por dentro das novidades!</h1>
-            <p>Assine nossa newsletter e receba atualizações sobre novos lançamentos,promoções exclusivas e dicas de leitura.</p>
+            <section className={styles.footer}>
+                <div className={styles.sobre}>
+                    <h1>📚 Livraria Luz</h1>
 
-            <div className={styles.button}>
-                <input type="text" placeholder="Seu melhor e-mail!" />
-                <button>Assinar</button>
-            </div>
-        </div>
+                    <p>Vem pra luz, onde as histórias ganham vida!</p>
+
+                    <p>A Livraria Luz é uma livraria online que conecta leitores ávidos com os melhores e mais diversos livros do mercado.</p>
+                </div>
+
+                <div className={styles.list}>
+                    <List 
+                        title="Links rápidos"
+                        op1="Home"
+                        op2="Catálogos"
+                        op3="Ofertas"
+                        op4="Sobre nós"
+                    />
+                    <List 
+                        title="Categorias"
+                        op1="Ficção Científica"
+                        op2="Romance"
+                        op3="Tecnologia"
+                        op4="Fantasia"
+                    />
+                    <List
+                        title="Redes"
+                        op1="📸 Instagram"
+                        op2="🎵 TikTok"
+                        op3="🐦 Twitter"
+                        op4="🎞 YouTube"
+                    />
+                </div>
+            </section>
     );
 }
