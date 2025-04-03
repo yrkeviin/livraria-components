@@ -9,7 +9,10 @@ export default function Page() {
         <>
             <Header />
             <Banner />
-            <Title />
+            <Title 
+                text="Destaques da semana"
+                all="Ver todos"
+            />
         </>
     );
 }
